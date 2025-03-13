@@ -13,7 +13,7 @@ fn greet(name: String) -> String {
 pub struct Response{
     translation_text: String
 }
-
+// okej
 #[ic_cdk::update]
 async fn translate(text: String) -> Result<String, String> {
     let token = "";
